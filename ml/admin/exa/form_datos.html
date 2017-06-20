@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Datos :: formularios</title>
+        <meta charset="utf-8">
+        <link href="estilo.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Uso de formularios</h1>
+        <form action="proc_datos2.php" method="post">
+            <fieldset>
+            <legend>Información personal</legend>
+            <p>
+            <input type="text" name="nombre" id ="nombre" placeholder="Proporciona tu nombre">
+            </p>
+            <p>Sexo:<br>
+            <input type="radio" name="sexo" value="N" checked>No indicar<br>
+            <input type="radio" name="sexo" value="M">Masculino<br>
+            <input type="radio" name="sexo" value="F">Femenino
+            </p>
+            <p>Elige el tipo de música que te gusta (no hay mínimo ni máximo):<br>
+            <input type="checkbox" name="musica[]" value="Rock">Rock<br>
+            <input type="checkbox" name="musica[]" value="Pop">Pop<br>
+            <input type="checkbox" name="musica[]" value="Electronica">Electrónica<br>
+            <input type="checkbox" name="musica[]" value="Salsa/cumbia">Salsa/cumbia<br>
+            <input type="checkbox" name="musica[]" value="Regueton">Reguetón<br>
+            <input type="checkbox" name="musica[]" value="Blues">Blues
+            </p>
+            
+            </fieldset>
+            <p><input type="submit" name="accion" value="Registrar">
+            <input type="reset" value="Limpiar">
+            </p>
+            
+        </form>
+    </body>
+</html>

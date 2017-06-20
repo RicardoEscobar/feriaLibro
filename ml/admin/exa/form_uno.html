@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio uno :: Formulario</title>
+        <meta charset="utf-8">
+        <link href="estilo.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Paso de datos vía formulario</h1>
+        <p>Este ejercicio servirá para ejemplificar el uso de los formularios para el paso de parámetros a una
+        aplicación hecha en PHP.</p>
+        <form action="proc_uno.php" method="post">
+            <p><label for="nom">Proporciona tu nombre: </label><br>
+            <input type="text" name="nom" id="nom"></p>
+            <p><label for="sexo">¿Cuál es tu género?: </label><br>
+            <input type="radio" name="sexo" id="sexo" value="Femenino">Femenino<br>
+            <input type="radio" name="sexo" id="sexo" value="Masculino">Masculino<br>
+            <input type="radio" name="sexo" id="sexo" value="Indeterminado">Indeterminado<br>
+            <input type="date" name="sexo" id="sexo" value="Indeterminado"><br>
+            <input type="submit" value="Enviar datos">
+            </p>
+        </form>
+    </body>
+</html>

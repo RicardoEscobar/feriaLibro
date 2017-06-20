@@ -1,0 +1,39 @@
+.media-details {
+	width: 460px;
+	float: none;
+}
+.media-details form {
+	margin-left: 33%;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 20px 30px 0 20px;
+}
+
+.tabla{
+    background: lightblue;
+}
+.fac{
+    color: #E6E6E1;
+    text-align: center;
+    background: #595959;
+    font-family: 'Open Sans', sans-serif;
+}
+.fac p{
+    font-size: 16pt;
+}
+table {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;  width: 480px; text-align: left;    border-collapse: collapse; }
+
+th {     font-size: 18px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+td {  font-size: 14px;  padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: #339; }
+
+img{
+    width: 25%;
+}

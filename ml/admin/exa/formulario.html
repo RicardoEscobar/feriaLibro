@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="utf-8">
+        <link href="estilo.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Datos</h1>
+        <form action="formulario.php" method="post">
+            <p>Ingrese los datos:</p>
+            <p><label for="nom">Nombre: </label><br>
+                <input type="text" name="nom" id="nom" ></p>
+            
+            <p><label for="ape">Apellidos: </label><br>
+                <input type="text" name="ape" id="ape" ></p>
+            
+            <p><label for="edad">Edad: </label><br>
+                <input type="text" name="edad" id="edad" ></p>
+            
+            <!--<p><label for="hobbie">Hobbie: </label><br>
+                <input type="text" name="hobbie" id="hobbie"></p>-->
+            <p><label for="hobbie">Hobbie: </label><br>
+            <textarea cols="10" rows="5" name="hobbie"></textarea></p>
+            
+            <input type="submit" value="Enviar datos">
+        </form>
+    </body>
+</html>

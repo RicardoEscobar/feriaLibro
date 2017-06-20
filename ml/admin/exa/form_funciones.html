@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Funciones :: Formulario</title>
+        <meta charset="utf-8">
+        <link href="estilo.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1> Funciones </h1>
+        <form action="proc_funciones.php" method="post">
+            <p><label for="temp">Temperatura a convertir: </label>
+            <input type="text" name="temp" id="temp"></p>
+            <p><input type="radio" name="tipo" value="c2f">Centígrados a Fahrenheit<br>
+            <input type="radio" name="tipo" value="f2c">Fahrenheit a Centígrados</p>
+            <input type="submit" value="convertir">
+        </form>
+    </body>
+</html>

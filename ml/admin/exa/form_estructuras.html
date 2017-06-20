@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Estructuras de control :: Formulario</title>
+        <meta charset="utf-8">
+        <link href="estilo.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Estructuras de control</h1>
+        <h2>Uso de if</h2>
+        <p>Proporciona dos números enteros, elabora una aplicación en PHP que determine cuál de ellos es el mayor.</p>
+        <form action="proc_estructuras.php" method="post">
+            <p><label for="num1">Primer número:</label>
+                <input type="text" name="num1" id="num1"></p>
+            <p><label for="num2">Segundo número:</label>
+                <input type="text" name="num2" id="num2"></p>
+            <input type="submit" value="Determinar">
+        </form>
+        <h2>Uso de switch</h2>
+        <p>Proporciona un número entero que represente una calificación del 1 al 10. Elabora una aplicación que convierta este
+        número a sus correspondiente valor cualitativo,</p>
+        <form action="proc_estructuras.php" method="post">
+            <p><label for ="calif">Proporciona la calificación</label><br>
+                <input type="text" name="calif" id="calif"></p>
+                <input type="submit" value="Traducir">
+        </form>
+        <h2>Uso de while</h2>
+        <p>Solicitar un número positivo. Elabora una aplicación en PHP que imprima los números pares que hay entre 1 y ese número,
+        incluyéndolo si es el caso.</p>
+        <form action="proc_estructuras.php" method="post">
+            <p><label for ="num">Proporciona un número:</label><br>
+                <input type="text" name="num" id="num"></p>
+                <input type="submit" value="Imprimir">
+        </form>
+    </body>
+</html>

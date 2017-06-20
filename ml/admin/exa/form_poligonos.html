@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Funciones :: Formulario</title>
+        <meta charset="utf-8">
+        <link href="estilo.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1> Área de polígonos </h1>
+        <form action="proc_poligonos.php" method="post">
+            <p><label for="temp">Lado A/Radio</label>
+            <input type="text" name="valor1" id="valor1"></p>
+            <p><label for="temp">Lado B/Apotema:</label>
+            <input type="text" name="valor2" id="valor2"></p>
+            <p><label for="temp">Número de lados: </label>
+            <input type="text" name="valor3" id="valor3"></p>
+            <p><input type="radio" name="tipo" value="cuadrado">Cuadrado<br>
+            <input type="radio" name="tipo" value="recta">Rectángulo<br>
+            <input type="radio" name="tipo" value="triangulo">Triángulo<br>
+            <input type="radio" name="tipo" value="circulo">Círculo<br>
+            <input type="radio" name="tipo" value="poligono">Polígono regular</p>
+            <input type="submit" value="convertir">
+        </form>
+    </body>
+</html>

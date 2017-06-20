@@ -1,0 +1,9 @@
+h1{
+    font-size: 5em;
+}
+a{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 2em;
+    color: blue;
+}
