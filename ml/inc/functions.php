@@ -36,13 +36,13 @@ function single_item_array($id) {
 
 		$results=$db->prepare(
 
-			"SELECT title,category,img, 
+			"SELECT title,category,img,
 
 			format, year, publisher, isbn, genre
 
 			FROM media
 
-			JOIN Genres on media.genre_id=Genres.genre_id
+			JOIN genres on media.genre_id=genres.genre_id
 
 			LEFT OUTER JOIN books on media.media_id=books.media_id
 
@@ -116,7 +116,7 @@ function get_item_html($id,$item) {
 
 					. $item["media_id"] ."'><img src='"
 
-					. $item["img"] . "' title='" 
+					. $item["img"] . "' title='"
 
 					. $item["title"] . "'>"
 
