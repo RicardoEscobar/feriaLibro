@@ -78,7 +78,7 @@ function single_item_array($id) {
 
 			FROM media_people
 
-			JOIN people on pedia_people.people_id=people.people_id
+			JOIN people on media_people.people_id=people.people_id
 
 			WHERE media_people.media_id=?"
 
