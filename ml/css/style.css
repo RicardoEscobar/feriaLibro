@@ -16,12 +16,12 @@ table th {
 	========================================================================== */
 
 html {
-	overflow-y: scroll; 
+	overflow-y: scroll;
 	overflow-x: hidden;
 }
 body {
-	font-family: 'Open Sans', sans-serif; 
-	background:#f0eeed; 
+	font-family: 'Open Sans', sans-serif;
+	background:#f0eeed;
 	color: #676767;
 }
 
@@ -30,7 +30,7 @@ body {
 	========================================================================== */
 
 .wrapper {
-	width: 980px; 
+	width: 980px;
 	margin: 0 auto;
 }
 
@@ -44,37 +44,37 @@ body {
 	clear:both;
 }
 .header {
-	background: #ef8887; 
+	background: ##B5ACA6; 
 	border-bottom: 3px solid #db7a78;
 }
 .header .branding-title {
-	float: left; 
-	margin: 0 0 0 5px; 
-	font: 0/0 serif; 
-	text-shadow: none; 
-	color: transparent; 
-	width:225px; 
+	float: left;
+	margin: 0 0 0 5px;
+	font: 0/0 serif;
+	text-shadow: none;
+	color: transparent;
+	width:225px;
 	height:125px;
 	background:url(../img/branding-title.png) 0 6px no-repeat;
 	padding: 6px 0;
 }
 .header .branding-title a {
-	display: block; 
-	height: 125px; 
+	display: block;
+	height: 125px;
 	width: 225px;
 }
 .header .nav {
-	float: right; 
-	top: 10; 
-	right: 0; 
-	margin: 0; 
-	position: relative; 
-	left: 15px; 
+	float: right;
+	top: 10;
+	right: 0;
+	margin: 0;
+	position: relative;
+	left: 15px;
 	z-index: 99999999;
 }
 .header .nav li {
-	display: inline-block; 
-	margin: 0; 
+	display: inline-block;
+	margin: 0;
 	list-style: none;
 }
 .header .nav li a {
@@ -100,7 +100,7 @@ body {
 
 /* content */
 
-#content { 
+#content {
 	padding: 10px 0 80px;
 	min-height: 400px;
 	background: white;
@@ -113,7 +113,7 @@ body {
 	clear:both;
 }
 .section.page {
-	padding: 34px 0; 
+	padding: 34px 0;
 	background: white;
 }
 .section.page h1 {
@@ -124,13 +124,13 @@ body {
 }
 .section.page .media-details h1 { text-align: left; }
 .section.page p {
-	width: 475px; 
-	margin-left: auto; 
-	margin-right: auto; 
+	width: 475px;
+	margin-left: auto;
+	margin-right: auto;
 }
-.section.page .media-details h1 .price {	
-	color: #9d9f4e; 
-	padding-right: 10px; 
+.section.page .media-details h1 .price {
+	color: #9d9f4e;
+	padding-right: 10px;
 	font-size: 34px;
 }
 .section.catalog { padding-bottom: 42px; }
@@ -142,8 +142,8 @@ body {
 	padding-top: 20px;
 }
 .section.catalog ul.items {
-	margin: 0 0 -17px 0; 
-	padding: 0; 
+	margin: 0 0 -17px 0;
+	padding: 0;
 	width: 997px;
 }
 .section.catalog ul.items li {
@@ -158,11 +158,11 @@ body {
 }
 .section.catalog ul.items li a:hover:after {
 	content: '+';
-	font-size: 50px; 
-	position: absolute; 
-	top:35px; 
-	right:30px; 
-	color: #3888c2; 
+	font-size: 50px;
+	position: absolute;
+	top:35px;
+	right:30px;
+	color: #3888c2;
 	vertical-align: top;
 }
 .section.catalog ul.items li a {
@@ -212,16 +212,16 @@ td, th {
 	padding: 5px 5px;
 }
 form {
-	width: 475px; 
+	width: 475px;
 	margin: 34px auto;
 }
 form tr, tr {
 	text-align:left;
-	vertical-align: top; 
+	vertical-align: top;
 	padding:2px;
 }
 form table {
-	width: 475px; 
+	width: 475px;
 	margin-bottom: 16px;
 }
 form th {
@@ -317,19 +317,19 @@ form input[type="submit"]:hover {
 	list-style: none;
 	display: inline-block;
 }
-.footer ul li:after {	
+.footer ul li:after {
 	content:" | "
 }
 .footer ul li:last-child:after {
 	content:"";
 }
 .footer p {
-	margin: 0; 
+	margin: 0;
 	padding-right: 3px;
 }
 .footer a {
-	text-decoration: none; 
-	color: #539def; 
+	text-decoration: none;
+	color: #539def;
 	margin: 0 10px;
 }
 .footer li:first-child a { margin-left: 4px; }
