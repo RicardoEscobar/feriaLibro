@@ -44,7 +44,7 @@ body {
 	clear:both;
 }
 .header {
-	background: #B5ACA6; 
+	background-color: #B5ACA6; 
 	border-bottom: 3px solid #db7a78;
 }
 .header .branding-title {
